@@ -84,8 +84,6 @@
   display: table-cell;
   vertical-align: top;
   width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
 
   @include breakpoint($large) {
     display: block;
@@ -94,8 +92,10 @@
   }
 
   img {
-    max-width: 175px;
-    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    border-radius: 50%; // Ensures the image is a fixed circle
+    object-fit: cover; // Ensures the image covers the container while maintaining aspect ratio
 
     @include breakpoint($large) {
       padding: 5px;
