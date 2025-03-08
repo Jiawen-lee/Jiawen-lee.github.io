@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Jiawen Li"
 title_separator          : "-"
 name                     : &name "Jiawen Li"
-description              : &description "SJTU-UM JI Class 26"
+description              : &description 
 url                      : https://Jiawen-lee.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Jiawen-lee/Jiawen-lee.github.io"
@@ -23,9 +23,9 @@ repository               : "Jiawen-lee/Jiawen-lee.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Jiawen Li 李嘉文"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "ME@SJTU-UM JI; DSE@UM"
   location         : "Ann Arbor"
   employer         : "University of Michigan, Ann Arbor"
   uri              : # URL
